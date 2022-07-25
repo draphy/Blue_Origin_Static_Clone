@@ -1,0 +1,629 @@
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: barlowregular;
+  src: url(./fonts/barlow/Barlow-Regular.ttf);
+}
+@font-face {
+  font-family: barlowbold;
+  src: url(./fonts/barlow/Barlow-Bold.ttf);
+}
+@font-face {
+  font-family: barlowlight;
+  src: url(./fonts/barlow/Barlow-Light.ttf);
+}
+@font-face {
+  font-family: barlowmedium;
+  src: url(./fonts/barlow/Barlow-Medium.ttf);
+}
+@font-face {
+  font-family: fromthestarsbold;
+  src: url(./fonts/stars/Cocogoose-Compressed-Bold-trial.ttf);
+}
+@font-face {
+  font-family: fromthestarslight;
+  src: url(./fonts/stars/Cocogoose-Compressed-Light-trial.ttf);
+}
+@font-face {
+  font-family: barlowulight;
+  src: url(./fonts/barlow/Barlow-ExtraLight.ttf);
+}
+.head {
+  background-image: url(./images/HorizonCam_M6_Hero.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 929px;
+}
+.head_top {
+  width: 100%;
+  height: 113.77px;
+
+  display: flex;
+}
+.head img {
+  width: 250px;
+  height: 103.77px;
+  margin-left: 27px;
+  margin-top: 5px;
+}
+.sec_head {
+  width: 1599px;
+  height: 48px;
+
+  margin-top: 33px;
+  padding-left: 754px;
+}
+.sec_head ul {
+  font-family: barlowbold;
+  list-style: none;
+  display: flex;
+  font-size: 13px;
+  letter-spacing: 2.1px;
+}
+.sec_head ul li {
+  margin-right: 35px;
+}
+.sec_head ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.sec_head ul li a:after {
+  display: block;
+  content: "";
+  border-bottom: solid 2px #0033dd;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  transform-origin: 0 50%;
+}
+.sec_head ul li a:hover:after {
+  transform: scaleX(1);
+}
+.sec_head ul li img {
+  width: 40px;
+  height: 32px;
+  filter: invert(100%);
+  margin-top: -7px;
+  margin-left: 0px;
+}
+
+.expand {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #0033dd;
+  margin: -13px 0 0 0;
+  padding: 15px 16px 15px 13px;
+}
+.expand:after {
+  display: block;
+  content: "";
+  border-bottom: solid 2px #ffffff;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  transform-origin: 0 50%;
+}
+.expand:hover:after {
+  transform: scaleX(1);
+}
+.sub_head1 {
+  width: 1320px;
+  height: 413.5px;
+
+  margin-left: 304px;
+  margin-top: 196px;
+}
+.sub_head1_inside {
+  width: 712.8px;
+  height: 413.5px !important;
+}
+.sub_head1_inside_box {
+  width: 25px;
+  height: 5px;
+  background-color: #0033dd;
+  float: left;
+  margin-right: 10px;
+  margin-top: 6px;
+}
+#sub_head1_inside_box_text {
+  font-size: 15px;
+  font-family: barlowbold;
+  color: white;
+  letter-spacing: 1px;
+}
+#sub_head1_inside_box_text1 {
+  font-size: 75px;
+  font-family: barlowulight;
+  font-weight: 1;
+  margin: -6px 0px 0px 0px;
+  color: white;
+}
+#sub_head1_inside_box_text2 {
+  font-size: 75px;
+  font-family: barlowbold;
+  margin: -15px 0 0 0;
+  color: white;
+}
+#sub_head1_inside_box_text3 {
+  font-size: 20px;
+  font-family: barlowregular;
+  letter-spacing: 0.7px;
+  color: white;
+  line-height: 1.875rem;
+}
+.sub_head1_inside_box_button {
+  width: 141px;
+  height: 34px;
+  border: 1px solid #828282;
+  padding: 16px 0px 0px 51px;
+}
+.sub_head1_inside_box_button:hover {
+  border: 1px solid white;
+}
+.sub_head1_inside_box_button a {
+  font-size: 14px;
+  color: white;
+  font-family: barlowbold;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.sub_head2 {
+  width: 73.85%;
+  height: 460px;
+  background-image: url(./images/NS-18-AudreyPowers.jpeg);
+  background-size: cover;
+  padding-top: 392px;
+  padding-left: 498px;
+}
+.sub_head2_inside {
+  width: 907.19px;
+  height: 248.5px;
+  padding-left: 144px;
+}
+#sub_head2_inside_box_text1 {
+  font-size: 75px;
+  font-family: barlowulight;
+  font-weight: 1;
+  margin: -6px 0px 0px 0px;
+  color: white;
+}
+#sub_head2_inside_box_text2 {
+  font-size: 75px;
+  font-family: barlowbold;
+  margin: -15px 0 0 40px;
+  color: white;
+}
+.sub_head2_inside_box_button {
+  width: 215px;
+  height: 34px;
+  border: 1px solid #828282;
+  padding: 12px 0px 0px 33px;
+  margin-left: 150px;
+  margin-top: 35px;
+}
+.sub_head2_inside_box_button:hover {
+  border: 1px solid white;
+}
+.sub_head2_inside_box_button a {
+  font-size: 16px;
+  color: white;
+  font-family: barlowbold;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.sub_head3 {
+  width: 73.85%;
+  height: 460px;
+  background-image: url(./images/NG_GS1_Move_BG.jpeg);
+  background-size: cover;
+  padding-top: 392px;
+  padding-left: 498px;
+}
+.sub_head3_inside {
+  width: 712.8px;
+  height: 413.5px !important;
+  margin-left: -257px;
+  margin-top: -93px;
+}
+.sub_head3_inside_box {
+  width: 25px;
+  height: 5px;
+  background-color: #0033dd;
+  float: left;
+  margin-right: 10px;
+  margin-top: 6px;
+}
+#sub_head3_inside_box_text {
+  font-size: 15px;
+  font-family: barlowbold;
+  color: white;
+  letter-spacing: 1px;
+}
+#sub_head3_inside_box_text1 {
+  font-size: 75px;
+  font-family: barlowbold;
+
+  margin: -6px 0px 0px 0px;
+  color: white;
+}
+#sub_head3_inside_box_text2 {
+  font-size: 75px;
+  font-family: barlowulight;
+  font-weight: 1;
+  margin: -15px 0 0 0;
+  color: white;
+}
+#sub_head3_inside_box_text3 {
+  font-size: 20px;
+  font-family: barlowregular;
+  letter-spacing: 0.7px;
+  color: white;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  line-height: 1.875rem;
+}
+.sub_head3_inside_box_button {
+  width: 182px;
+  height: 34px;
+  border: 1px solid #828282;
+  padding: 16px 0px 0px 29px;
+}
+.sub_head3_inside_box_button:hover {
+  border: 1px solid white;
+}
+.sub_head3_inside_box_button a {
+  font-size: 14px;
+  color: white;
+  font-family: barlowbold;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.sub_head4 {
+  width: 73.85%;
+  height: 460px;
+  background-image: url(./images/blueorigin_be4_hotfirealternate2.jpg);
+  background-size: cover;
+  padding-top: 392px;
+  padding-left: 498px;
+}
+.sub_head4_inside {
+  width: 712.8px;
+  height: 413.5px !important;
+  margin-left: -190px;
+  margin-top: -93px;
+}
+#sub_head4_inside_box_text1 {
+  font-size: 75px;
+  font-family: barlowulight;
+  font-weight: 1;
+  margin: -6px 0px 0px 0px;
+  color: white;
+}
+#sub_head4_inside_box_text2 {
+  font-size: 75px;
+  font-family: barlowbold;
+
+  margin: -15px 0 0 0;
+  color: white;
+}
+#sub_head4_inside_box_text3 {
+  font-size: 20px;
+  font-family: barlowregular;
+  letter-spacing: 0.7px;
+  color: white;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  line-height: 1.875rem;
+}
+.sub_head4_inside_box_button {
+  width: 172px;
+  height: 34px;
+  border: 1px solid #828282;
+  padding: 16px 0px 0px 29px;
+}
+.sub_head4_inside_box_button:hover {
+  border: 1px solid white;
+}
+.sub_head4_inside_box_button a {
+  font-size: 15px;
+  color: white;
+  font-family: barlowbold;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.sub_head5 {
+  width: 73.85%;
+  height: 505px;
+  background-image: url(./images/reef_fullcolor_01darkearth.jpg);
+  background-size: cover;
+  padding-top: 392px;
+  padding-left: 498px;
+}
+.sub_head5_inside {
+  width: 907.19px;
+  height: 248.5px;
+  padding-left: 144px;
+  margin-top: -185px;
+}
+#sub_head5_inside_box_text1 {
+  font-size: 75px;
+  font-family: barlowulight;
+  font-weight: 1;
+  margin: -6px 0px 0px 63px;
+  color: white;
+}
+#sub_head5_inside_box_text2 {
+  font-size: 75px;
+  font-family: barlowbold;
+  margin: -15px 0 0 51px;
+  color: white;
+}
+#sub_head5_inside_box_text3 {
+  font-size: 20px;
+  font-family: barlowregular;
+  letter-spacing: 0.7px;
+  color: white;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  margin-left: -171px;
+  margin-right: 147px;
+  line-height: 1.875rem;
+  text-align: center;
+}
+.sub_head5_inside_box_button {
+  width: 201px;
+  height: 34px;
+  border: 1px solid #828282;
+  padding: 12px 0px 0px 33px;
+  margin-left: 160px;
+  margin-top: 35px;
+}
+.sub_head5_inside_box_button:hover {
+  border: 1px solid white;
+}
+.sub_head5_inside_box_button a {
+  font-size: 16px;
+  color: white;
+  font-family: barlowbold;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.sub_head6 {
+  width: 100%;
+  height: 68px;
+  background-color: #0033dd;
+  padding-top: 12px;
+}
+.sub_head6_inside {
+  width: 100%;
+  height: 52px;
+
+  display: flex;
+  justify-content: center;
+}
+.sub_head6_inside div {
+  width: 240.95px;
+  height: 16px;
+  font-family: barlowmedium;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.sub_head6_inside ul {
+  width: 238px;
+  height: 52px;
+  list-style: none;
+  display: flex;
+  margin-top: 0px;
+}
+.sub_head6_inside ul li {
+  width: 52px;
+  height: 52px;
+}
+
+.sub_head6_inside ul li a img {
+  width: 20px;
+  height: 20px;
+  padding: 15px 15px 15px 15px;
+}
+.sub_head6_inside ul li a img:hover {
+  border: 1px solid white;
+  border-radius: 24px;
+}
+.foot {
+  width: 100%;
+  height: 520px;
+  display: flex;
+}
+.foot_contain {
+  width: 882px;
+  height: 422px;
+  background-color: #222222;
+  display: flex;
+  padding: 98px 0px 0px 292px;
+}
+
+.foot_contain_box {
+  width: 440px;
+  height: 324px;
+  padding-top: 35px;
+}
+
+.foot_contain_box1 {
+  width: 440px;
+  height: 324px;
+  border-left: 1px solid #82828273;
+}
+
+.foot_contain_box img {
+  width: 220px;
+  height: 112.09px;
+  margin-left: 75px;
+}
+.foot_contain_box p {
+  font-family: barlowmedium;
+  color: #d8d8d8;
+  font-size: 12px;
+  padding: 25px 95px 11px 77px;
+  letter-spacing: 1px;
+}
+.foot_contain_box ul {
+  list-style: none;
+  display: flex;
+  margin-left: 37px;
+}
+.foot_contain_box li {
+  width: 129px;
+}
+.foot_contain_box a {
+  text-decoration: none;
+  color: #d8d8d8;
+  font-family: barlowmedium;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.foot_contain1 {
+  width: 732px;
+  height: 520px;
+  background-color: #2a2a2a;
+}
+.foot_contain_box1 ul {
+  list-style: none;
+  margin-left: 95px;
+}
+.foot_contain_box1 ul li {
+  margin-bottom: 35px;
+}
+.foot_contain_box1 ul a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: barlowregular;
+  font-size: 16px;
+  letter-spacing: 1px;
+  position: relative;
+  display: inline-block;
+}
+.foot_contain_box1 ul a:after {
+  display: block;
+  content: "";
+  border-bottom: solid 2px #0d6efd;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  transform-origin: 0 50%;
+}
+.foot_contain_box1 ul a:hover:after {
+  transform: scaleX(1);
+}
+.foot_contain1_p {
+  font-size: 15px;
+  font-family: barlowregular;
+  color: #ffffff;
+  width: 429px;
+  height: 64px;
+  font-weight: 1;
+  letter-spacing: 1px;
+  line-height: 1.875rem;
+  margin-left: 52px;
+  margin-top: 99px;
+}
+.sec_foot {
+  width: 341px;
+  height: 58px;
+
+  margin-top: 52px;
+  margin-left: 55px;
+  display: flex;
+  border-bottom: 2px solid #0033dd;
+}
+.sec_foot p {
+  font-family: barlowbold;
+  font-size: 19px;
+  color: #ffffff;
+  margin-top: 14px;
+  margin-left: 10px;
+}
+.sec_foot img {
+  filter: invert(100%);
+  width: 30px;
+  height: 30px;
+  margin-top: 13px;
+  margin-left: 196px;
+}
+
+.checkbox {
+  width: 30px;
+  height: 30px;
+  margin-top: 14px;
+  margin-left: 55px;
+  float: left;
+}
+.checkbox-button {
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 11px 23px;
+  border: 1px solid white;
+  border-radius: 0;
+  outline: 0;
+  background-color: transparent;
+}
+
+.checkbox-button__input {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-button__control {
+  position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 18px;
+  vertical-align: middle;
+  background-color: inherit;
+  color: white;
+  border: 2px solid white;
+}
+
+.checkbox-button__input:checked + .checkbox-button__control:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 2.8px;
+  left: 2.8px;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+}
+
+.checkbox-button__input:checked + .checkbox-button__control {
+  border-color: white;
+}
+
+.checkbox-button__control {
+  transform: scale(0.75);
+}
+
+.check_box_text {
+  width: 302.56px;
+  height: 136px;
+  padding-left: 92px;
+  font-family: barlowlight;
+  font-size: 14px;
+  color: #d8d8d8;
+  letter-spacing: 0.5px;
+}
+.check_box_text a {
+  color: white;
+}
